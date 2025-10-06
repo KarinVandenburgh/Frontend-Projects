@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Minion Hall Game</title>
+
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/montyhall.js"></script>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+
+<body onload='initialize()' style="padding-left:30px">
+<div data-role="page" >
+<div data-role=header>
+<h1>Minion Game</h1><br><hr>
+<h3>A banana is behind one of the doors.</h3>
+<br>
+</div>
+
+<div data-role="content">
+<!-- DATA INPUT -->
+<label id='instructions'></label>
+<label id='status'></label>
+
+<!-- DISPLAY OUTPUT IN A TABLE -->
+<br>
+<table id="doors">
+<tr>
+<td><button onclick="choseDoor(1);"><img src="media/miniondoor.jpg" width="175" height="200"></button></td>
+<td><button onclick="choseDoor(2);"><img src="media/miniondoor.jpg" width="175" height="200"></button></td>
+<td><button onclick="choseDoor(3);"><img src="media/miniondoor.jpg" width="175" height="200"></button></td>
+
+</tr>
+</table>
+</div>
+
+<div data-role=footer>
+<small><i>My Mobile Game</i></small>
+</div>
+</div>
+</body>
+
+</html>
