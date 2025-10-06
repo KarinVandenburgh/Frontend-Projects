@@ -23,6 +23,17 @@ Each project is stored in its own folder and can be opened directly in a browser
 
 Each project follows the same basic structure:
 
+project-x/
+- index.html
+- js/
+     - script.js
+- css/
+     - style.css
+- media/
+     - image1.jpg
+     - image2.png
+- ...
+
 
 ---
 
@@ -42,15 +53,4 @@ To make sure your browser correctly loads all **media**, **CSS**, and **JavaScri
 3. **Open the HTML file**
    - Right-click the `index.html` file → **Open With → Browser**
    - Or drag the file directly into your browser window
-   - 
-**If issues occur check the following**
-
- **Check your file paths**
-   - Paths must be relative and case-sensitive:
-     ```html
-     <img src="./media/example.jpg" alt="Example">
-     <link rel="stylesheet" href="./css/style.css">
-     <script src="./js/script.js"></script>
-     ```
-   - Avoid leading slashes like `/media/` or uppercase folder names (GitHub Pages is case-sensitive)
-
+4. Once the file is open you can interact with the program!
